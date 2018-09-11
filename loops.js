@@ -23,11 +23,11 @@ function doWhileLoop (array){
   function incrementVariable() {
   i = i + 1;
 } 
+
   do{
-    delete array[i];
-    incrementVariable()
+    array.pop();
   }
- while(array.length > 0 && i  );
+ while(array.length > 0 && incrementVariable());
   
   return array;
   }
