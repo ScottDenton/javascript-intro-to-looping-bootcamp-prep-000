@@ -25,9 +25,11 @@ function doWhileLoop (array){
 } 
   do{
     delete array[i];
+    incrementVariable()
   }
- while(array.length > 0 && incrementVariable() );
+ while(array.length > 0 && i  );
   
+  return array;
   }
 
 
