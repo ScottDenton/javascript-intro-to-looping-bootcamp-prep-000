@@ -18,7 +18,12 @@ return 'done';
 }
 
 function doWhileLoop (array){
-  
+  do{
+    delete array[i];
+  }
+ while( function incrementVariable() {
+  i = i + 1;
+} );
   
   
 }
